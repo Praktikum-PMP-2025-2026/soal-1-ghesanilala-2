@@ -14,7 +14,7 @@ void average(int *ptr, int n, int *sum, double *avg){
   *avg = temp;
 }
 
-void maks(int *ptr, int n, int *max, int *idx){
+void maks(int *ptr, int n, int *sum, int *max, int *idx){
   *max = ptr[0];
   *idx = 0;
   for(int i=0; i<n; i++){
@@ -23,7 +23,7 @@ void maks(int *ptr, int n, int *max, int *idx){
       *idx = i ;
     }
   }
-}
+} 
 
 int main(){
   int n, i;
@@ -45,3 +45,4 @@ int main(){
   return 0;
 }
 
+// referensi ide buat cari nmax https://www.duniailkom.com/latihan-kode-program-bahasa-c-mencari-nilai-terbesar-array/
